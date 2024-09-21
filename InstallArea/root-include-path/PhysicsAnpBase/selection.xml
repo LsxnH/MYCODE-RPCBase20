@@ -1,0 +1,23 @@
+
+<lcgdict>
+
+<class name="Anp::AlgEvent">
+  <field name="fSubAlgs" transient="true"/>
+</class>
+
+<class name="Anp::Base"/>
+<class name="Anp::Callback"/>
+
+<class name="Anp::HistMan"/>
+<class name="Anp::Registry"/>
+<class name="Anp::ReadNtuple"/>
+<class name="Anp::RunModule"/>
+
+<function name="Anp::String2Hash"/>
+<function name="Anp::PrintHashMap"/>
+<function name="Anp::GetRecursiveDir"/>
+<function name="Anp::GetMCKey"/>
+<function name="Anp::GetMCName"/>
+<function name="Anp::Round2Pair"/>
+
+</lcgdict>

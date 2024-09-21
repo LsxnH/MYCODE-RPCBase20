@@ -1,0 +1,463 @@
+[?1034h__main__: INFO - Start time: Fri Jun 19 18:18:24 2020
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0000_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0001_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0002_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0003_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0004_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0005_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0006_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0007_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0008_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0009_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0010_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0011_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0012_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0013_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0014_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0015_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0016_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0017_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0018_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0019_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0020_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0021_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0022_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0023_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0024_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0025_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0026_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0027_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0028_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0029_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0030_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0031_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0032_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0033_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0034_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0035_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0036_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0037_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0038_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0039_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0040_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0041_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0042_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0043_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0044_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0045_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0046_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0047_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0048_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0049_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0050_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0051_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0052_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0053_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0054_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0055_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0056_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0057_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0058_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0059_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0060_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0061_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0062_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0063_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0064_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0065_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0066_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0067_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0068_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0069_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0070_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0071_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0072_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0073_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0074_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0075_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0076_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0077_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0078_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0079_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0080_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0081_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0082_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0083_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0084_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0085_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0086_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0087_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0088_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0089_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0090_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0091_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0092_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0093_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0094_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0095_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0096_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0097_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0098_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0099_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0100_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0101_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0102_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0103_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0104_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0105_0_out.root
+PhysicsAnpBaseIO.pyc: INFO - Search input path: /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0106_0_out.root
+__main__: INFO -  107 pre-selected files
+__main__: INFO -  107 file(s) passed filter: --file-key=".*$"
+__main__: INFO - Process 107 input file(s)
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0000_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0001_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0002_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0003_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0004_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0005_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0006_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0007_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0008_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0009_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0010_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0011_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0012_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0013_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0014_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0015_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0016_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0017_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0018_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0019_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0020_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0021_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0022_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0023_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0024_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0025_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0026_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0027_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0028_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0029_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0030_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0031_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0032_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0033_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0034_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0035_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0036_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0037_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0038_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0039_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0040_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0041_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0042_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0043_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0044_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0045_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0046_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0047_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0048_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0049_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0050_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0051_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0052_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0053_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0054_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0055_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0056_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0057_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0058_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0059_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0060_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0061_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0062_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0063_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0064_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0065_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0066_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0067_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0068_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0069_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0070_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0071_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0072_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0073_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0074_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0075_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0076_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0077_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0078_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0079_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0080_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0081_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0082_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0083_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0084_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0085_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0086_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0087_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0088_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0089_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0090_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0091_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0092_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0093_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0094_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0095_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0096_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0097_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0098_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0099_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0100_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0101_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0102_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0103_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0104_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0105_0_out.root
+   /lustre/AtlUser/liheng/RPC/ntuples/ntuples_output/Run_350121_newMap_ntuple_job-output-2019-04-28_07-01/job_0106_0_out.root
+PhysicsAnpRPCConfig.pyc: INFO - loadPhysicsAnpRPCLibs - load shared libraries
+__main__: INFO - Configure python
+PhysicsAnpRPCPanelEff.pyc: INFO - prepareJobConfig - prepare python configuration...
+PhysicsAnpRPCConfig.pyc: INFO - prepareReadNtuple - read xml files from: /hepustc/home/hengli/testarea/RPCBase20/PhysicsAnpRPC/config/rpc-eff/
+HistMan::ReadFile - processed file /hepustc/home/hengli/testarea/RPCBase20/PhysicsAnpRPC/config/rpc-eff/PrepBmeHit.xml
+   KeyHist:     "PrepBmeHit"
+   #histograms:  3
+HistMan::ReadFile - processed file /hepustc/home/hengli/testarea/RPCBase20/PhysicsAnpRPC/config/rpc-eff/PlotBmeCand.xml
+   KeyHist:     "PlotBmeCand"
+   #histograms:  106
+HistMan::ReadFile - processed file /hepustc/home/hengli/testarea/RPCBase20/PhysicsAnpRPC/config/rpc-eff/PlotCand.xml
+   KeyHist:     "PlotCand"
+   #histograms:  33
+HistMan::ReadFile - failed to add duplicate histogram: PlotL1Muon/Ptll
+HistMan::ReadFile - processed file /hepustc/home/hengli/testarea/RPCBase20/PhysicsAnpRPC/config/rpc-eff/PlotL1Muon.xml
+   KeyHist:     "PlotL1Muon"
+   #histograms:  55
+   #expressions: 4
+HistMan::ReadFile - failed to add duplicate histogram: PlotRpcMuon/NRpcHit
+HistMan::ReadFile - processed file /hepustc/home/hengli/testarea/RPCBase20/PhysicsAnpRPC/config/rpc-eff/PlotRpcMuon.xml
+   KeyHist:     "PlotRpcMuon"
+   #histograms:  46
+HistMan::ReadFile - processed file /hepustc/home/hengli/testarea/RPCBase20/PhysicsAnpRPC/config/rpc-eff/PlotRpcNoise.xml
+   KeyHist:     "PlotRpcNoise"
+   #histograms:  99
+HistMan::ReadFile - processed file /hepustc/home/hengli/testarea/RPCBase20/PhysicsAnpRPC/config/rpc-eff/PlotHLTNoalg.xml
+   KeyHist:     "PlotHLTNoalg"
+   #histograms:  8
+HistMan::ReadFile - processed file /hepustc/home/hengli/testarea/RPCBase20/PhysicsAnpRPC/config/rpc-eff/PlotRpcCand.xml
+   KeyHist:     "PlotRpcCand"
+   #histograms:  6
+PhysicsAnpRPCPanelEff.pyc: INFO - prepareJobConfig - process up to 1000 events
+PhysicsAnpRPCPanelEff.pyc: INFO - prepareJobConfig - all done
+__main__: INFO - Execute C++
+*****************************************************************
+ReadNtuple::ExecuteRegistry - start executing C++ code...
+readNtuple::Config - created algorithm: "topAlg" - "RunAlgs"
+HistMan::Config - read Registry configuration
+   Print: 1
+   Debug: 0
+readNtuple::Config
+   Input TreeName:     nominal
+   OutputFile:         ANP_HIST.root
+   NtupleInstance:     reco
+   NEvent:             1000
+   NEventPerFile:      0
+   Debug:              0
+   CloseFile:          1
+   FillTrueParts:      0
+
+   PrefixHit:          "m_rpc_hit_"
+   PrefixCluster:      ""
+   PrefixJet:          ""
+   PrefixElec:         ""
+   PrefixMuon:         "m_muon_"
+   PrefixTau:          ""
+   PrefixTrack:        ""
+   PrefixTrackJet:     ""
+   PrefixTruthPart:    ""
+   PrefixTruthVtx:     ""
+   PrefixTruthJet:     ""
+
+readNtuple::Config - process 4 unique vector/object branches 
+   added generic  branch prefix: m_l1mu_ctpi_
+   added specific branch prefix: m_muon_
+      group key: RpcExtrapolate_
+      group key: RpcHitOnTrackMS_
+   added specific branch prefix: m_rpc_hit_
+   added generic  branch prefix: m_rpc_rdo_
+readNtuple::Init - retrieved Registry for top algorithm: topAlg
+topAlg::Config - will attempt to create and configure 8 algorithm(s)...
+prepReco::Config - print configuration:
+   DoCount:                0
+   DoLepIdFilter:          0
+   MassElec:               0.511
+   MassMuon:               105.658
+   MassTau:                1776.84
+   AddLeptonMass:          1
+   TruthJetConstituentVar: constituentLinks_barcode
+   TruthJetGhostPartonVar: GhostPartons_barcode
+prepRpcGeo::Config - print configuration:
+   FilePath:            /lustre/AtlUser/rustem/public/OfflineGeometry/rpc_geometry_athena_21.0.71_2018-09-12.root
+   TreeName:            geometry
+   OutGeoStripFilePath: 
+   GeoNtupleInstance:   rpc_geometry
+   GeoVecGapName:       m_rpc_geo_
+   GeoVecEtaStripName:  etaStrip_
+   GeoVecPhiStripName:  phiStrip_
+prepRpcMuon::Config - print configuration:
+   Debug:              0
+   DebugBme:           0
+   KeyRpcExtrap:       RpcExtrapolate_
+   KeyRpcResult:       RpcExtrapolationResult
+   KeyRpcChans:        
+   KeyRpcResultGeoCut: RpcExtrapolationResultGeoCut
+   BmeNtupleInstance:  bme
+plotRpcNoise_prepRpcCandMultimu::Config
+   PlotEachGap:       1
+   PlotStripHists:    0
+   SelectCandName:    prepRpcCandMultimu
+   KeyRpcResult:      RpcExtrapolationResultGeoCut
+plotRpcNoise_prepRpcCandMultimu::Config
+   DirName: plotRpcNoise_prepRpcCandMultimu
+   KeyHist: PlotRpcNoise
+topAlg::Config - created and configured 8 algorithm(s):
+   prepReco                        - PrepReco
+   prepRpcGeo                      - PrepRpcGeo
+   prepRpcMuon                     - PrepRpcMuon
+   prepL1Muon                      - PrepL1Muon
+   prepRpcCandZTP                  - PrepRpcCandZTP
+   prepRpcCand1mu                  - PrepRpcCandSingleMuon
+   prepRpcCandMultimu              - PrepRpcCandMultiMuons
+   plotRpcNoise_prepRpcCandMultimu - PlotRpcNoise
+readNtuple::Init - finished configuring algorithm: topAlg
+readNtuple::Init - opened output ROOT file: ANP_HIST.root
+prepRpcGeo::Init - create and configure ReadNtuple to geometry information 
+readGeoNtuple::Config - created algorithm: "topAlg" - "RunAlgs"
+HistMan::Config - read Registry configuration
+   Print: 1
+   Debug: 0
+readGeoNtuple::Config
+   Input TreeName:     
+   OutputFile:         
+   NtupleInstance:     rpc_geometry
+   NEvent:             1000
+   NEventPerFile:      0
+   Debug:              0
+   CloseFile:          1
+   FillTrueParts:      0
+
+   PrefixHit:          ""
+   PrefixCluster:      ""
+   PrefixJet:          ""
+   PrefixElec:         ""
+   PrefixMuon:         ""
+   PrefixTau:          ""
+   PrefixTrack:        ""
+   PrefixTrackJet:     ""
+   PrefixTruthPart:    ""
+   PrefixTruthVtx:     ""
+   PrefixTruthJet:     ""
+
+readGeoNtuple::Config - process 1 unique vector/object branches 
+   added generic  branch prefix: m_rpc_geo_
+      group key: phiStrip_
+      group key: etaStrip_
+readGeoNtuple::Init - retrieved Registry for top algorithm: topAlg
+topAlg::Config - will attempt to create and configure 0 algorithm(s)...
+topAlg::Config - created and configured 0 algorithm(s):
+readGeoNtuple::Init - finished configuring algorithm: topAlg
+prepRpcGeo::Process - process new geometry event
+prepRpcGeo::Process - geometry summary: 
+   Input geometry file:  /lustre/AtlUser/rustem/public/OfflineGeometry/rpc_geometry_athena_21.0.71_2018-09-12.root
+   Number of gas gaps:   4200
+   Number of eta strips: 122592
+   Number of phi strips: 257824
+readNtuple::Exec - loop over 107 input file(s)
+-----------------------------------------------------------------
+Record #1000     Real time 00:00:05 CPU time 5.290
+-----------------------------------------------------------------
+readNtuple::Exec - finished reading input files: event count = 1000
+readNtuple::Done - finalize algorithms
+prepReco::Done - TimerProcessReco: Real time 00:00:00 CPU time 0.020
+prepReco::Done - TimerProcessTrue: Real time 00:00:00 CPU time 0.000
+prepRpcMuon::Done - summary: 
+   CountHits:               362812
+   CountHitsWithMissingGeo: 1882
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+RpcGeoMan::PrintSummary - encountered 1112 unknown strip ids
+RpcGeoMan::PrintSummary - write unknown strip ids to: miss_strip_ids.txt
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+prepRpcMuon::PrintCutFlow - print 7 cut-flows
+   CutInBounds - number of cuts: 2
+      Input       17470 +/- 130
+      CutValid    17470 +/- 130
+      CutInBounds 17470 +/- 130
+   CutInBoundsTight - number of cuts: 2
+      Input       17470 +/- 130
+      CutValid    17470 +/- 130
+      CutInBounds 13920 +/- 120
+   CutInBoundsGeoCut - number of cuts: 4
+      Input       17470 +/- 130
+      CutValid    17470 +/- 130
+      CutInBounds 13920 +/- 120
+      CutGeoEta    7319 +/- 86
+      CutGeoPhi    6298 +/- 79
+   CutRpcInTimeHit - number of cuts: 1
+      Input 27180 +/- 160
+            22520 +/- 150
+   CutRpcResidualHit - number of cuts: 1
+      Input 27180 +/- 160
+            14230 +/- 120
+   CutRpcInTimeCluster - number of cuts: 1
+      Input  +/- 
+             +/- 
+   CutRpcResidualCluster - number of cuts: 1
+      Input  +/- 
+             +/- 
+prepRpcCandZTP::Done - print summary
+   NRecoEvent: 1000
+   NCandEvent: 135
+prepRpcCand1mu::Done - print summary
+   NRecoEvent: 1000
+   NCandEvent: 661
+prepRpcCandMultimu::Done - print summary
+   NRecoEvent: 494
+   NCandEvent: 494
+plotRpcNoise_prepRpcCandMultimu::PrintCutFlow - print 4 cut-flows
+   CutRecoEvent - number of cuts: 0
+      Input  +/- 
+   CutCandEvent - number of cuts: 0
+      Input 494 +/- 22
+   CutHitBC0 - number of cuts: 1
+      Input 721860 +/- 850
+            110130 +/- 330
+   CutHitNoise - number of cuts: 1
+      Input 1082800 +/- 1000
+             379830 +/- 620
+topAlg::Done - releasing 8 algorithm(s)
+   erasing prepReco
+   erasing prepRpcGeo
+   erasing prepRpcMuon
+   erasing prepL1Muon
+   erasing prepRpcCandZTP
+   erasing prepRpcCand1mu
+   erasing prepRpcCandMultimu
+   erasing plotRpcNoise_prepRpcCandMultimu
+topAlg::Done - finished.
+readNtuple::Done - release algorithm handle(s)...
+readNtuple::Done - writing ROOT file: ANP_HIST.root
+readNtuple::Done - writing ROOT file: ANP_HIST.root - done!
+readNtuple::Done - closing ROOT file: ANP_HIST.root
+readNtuple::Done - closing ROOT file: ANP_HIST.root - done!
+readNtuple::Done - processed 1000 event(s)
+readNtuple::Done - algs  exec timer: Real time 00:00:03 CPU time 3.380
+readNtuple::Done - total exec timer: Real time 00:00:05 CPU time 5.290
+readNtuple::Done - finished.
+readNtuple::Execute - all is done.
+*****************************************************************
+__main__: INFO - Run python post processing code...
+PhysicsAnpBaseIO.pyc: INFO - copyHistFromInputFiles - process 107 input files
+PhysicsAnpBaseIO.pyc: INFO - copyHistFromInputFiles - copy histogram at path="nominal_Count"
+PhysicsAnpBaseIO.pyc: INFO - copyHistFromInputFiles - will save "nominal_Count" histogram to ANP_HIST.root
+__main__: INFO - Local time: Fri Jun 19 18:18:46 2020
+__main__: INFO - Total time: 30.8s

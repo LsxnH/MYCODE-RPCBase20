@@ -1,0 +1,10 @@
+<lcgdict>
+
+<function name="Anp::Var::PrintAllVars"/>
+<function name="Anp::Var::PrintDynamicVars"/>
+<function name="Anp::Var::RegisterVar"/>
+<function name="Anp::Var::RegisterDynamicVar"/>
+<function name="Anp::Var::GetAllVarNames"/>
+<function name="Anp::Var::GetAllVarKeys"/>
+
+</lcgdict>

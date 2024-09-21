@@ -1,0 +1,33 @@
+
+
+# --Beg PhysicsAnpDataDict.dsomap
+# --Date inserted: 2020-05-06 18:04:44.978879
+# --End PhysicsAnpDataDict.dsomap
+
+
+# --Beg PhysicsAnpBaseDict.dsomap
+# --Date inserted: 2020-05-06 18:06:16.414221
+{ decls }
+namespace Anp {  }
+
+[ libPhysicsAnpBaseDict.so ]
+# List of selected classes
+class Anp::AlgEvent
+class Anp::Base
+class Anp::Callback
+class Anp::HistMan
+class Anp::ReadNtuple
+class Anp::Registry
+class Anp::RunModule
+header PhysicsAnpBase/AlgEvent.h
+header PhysicsAnpBase/Handle.h
+header PhysicsAnpBase/HistMan.h
+header PhysicsAnpBase/ReadNtuple.h
+header PhysicsAnpBase/Registry.h
+header PhysicsAnpBase/RunModule.h
+# --End PhysicsAnpBaseDict.dsomap
+
+
+# --Beg PhysicsAnpRPCDict.dsomap
+# --Date inserted: 2020-05-06 18:08:01.797152
+# --End PhysicsAnpRPCDict.dsomap

@@ -1,0 +1,233 @@
+// -*- c++ -*-
+#ifndef ANP_CANDEVENT_ICC
+#define ANP_CANDEVENT_ICC
+
+/**********************************************************************************
+ * @Package: PhysicsAnpData
+ * @Class  : CandEvent
+ * @Author : Rustem Ospanov
+ *
+ * @Brief  : Inlined functions and template implementation and specialization
+ * 
+ * 
+ **********************************************************************************/
+
+// Local
+#include "RecoEvent.h"
+
+namespace Anp
+{
+  //==========================================================================================
+  // Get basic objects from special copy of RecoEvent that holds only selected objects
+  //==========================================================================================
+  template<class T> inline       std::vector<Ptr<T> >& CandEvent::GetVec()       { return fPass.GetVec<T>(); }
+  template<class T> inline const std::vector<Ptr<T> >& CandEvent::GetVec() const { return fPass.GetVec<T>(); }
+
+  //==========================================================================================
+  // Get derived objects from CandEvent itself - RecoEvent does not know about these types
+  //==========================================================================================
+  template<> inline std::vector<Ptr<RecObj> >& CandEvent::GetVec<RecObj>() { return fObj;      }
+  template<> inline std::vector<Ptr<Lepton> >& CandEvent::GetVec<Lepton>() { return fLepton;   }
+
+  template<> inline const std::vector<Ptr<RecObj> >& CandEvent::GetVec<RecObj>() const { return fObj;    }
+  template<> inline const std::vector<Ptr<Lepton> >& CandEvent::GetVec<Lepton>() const { return fLepton; }
+
+  //==========================================================================================
+  // Get selected objects from CandEvent itself - separate objects by type: loose lepton, tight lepton, etc
+  //==========================================================================================
+  template<> inline std::vector<Ptr<RecElec> >& CandEvent::GetVec<RecElec>(Type::Object otype) { return fMapElec[otype]; }
+  template<> inline std::vector<Ptr<RecMuon> >& CandEvent::GetVec<RecMuon>(Type::Object otype) { return fMapMuon[otype]; }
+  template<> inline std::vector<Ptr<Lepton > >& CandEvent::GetVec<Lepton >(Type::Object otype) { return fMapLep [otype]; }
+  template<> inline std::vector<Ptr<RecJet > >& CandEvent::GetVec<RecJet >(Type::Object otype) { return fMapJet [otype]; }
+  template<> inline std::vector<Ptr<RecTau > >& CandEvent::GetVec<RecTau >(Type::Object otype) { return fMapTau [otype]; }
+
+  //==========================================================================================
+  // Get selected objects from CandEvent itself - separate objects by type: loose lepton, tight lepton, etc
+  //===========================================================================================
+  template<> inline const std::vector<Ptr<RecElec> >& CandEvent::GetVec<RecElec>(Type::Object otype) const 
+  { 
+    const ObjMapElec::const_iterator it = fMapElec.find(otype);
+    
+    if(it != fMapElec.end()) {
+      return it->second;
+    }
+    
+    throw std::logic_error("GetVec<RecElec>(" + Type::GetObjectAsStr(otype) + ") - uknown vector");
+    return GetVec<RecElec>();
+  }
+
+  //===========================================================================================
+  template<> inline const std::vector<Ptr<RecMuon> >& CandEvent::GetVec<RecMuon>(Type::Object otype) const 
+  { 
+    const ObjMapMuon::const_iterator it = fMapMuon.find(otype);
+    
+    if(it != fMapMuon.end()) {
+      return it->second;
+    }
+    
+    throw std::logic_error("GetVec<RecMuon>(" + Type::GetObjectAsStr(otype) + ") - uknown vector");
+    return GetVec<RecMuon>();
+  }
+
+  //===========================================================================================
+  template<> inline const std::vector<Ptr<Lepton> >& CandEvent::GetVec<Lepton>(Type::Object otype) const 
+  { 
+    const ObjMapLep::const_iterator it = fMapLep.find(otype);
+    
+    if(it != fMapLep.end()) {
+      return it->second;
+    }
+
+    throw std::logic_error("GetVec<Lepton>(" + Type::GetObjectAsStr(otype) + ") - uknown vector");
+    return fLepton;
+  }
+
+  //===========================================================================================
+  template<> inline const std::vector<Ptr<RecJet> >& CandEvent::GetVec<RecJet>(Type::Object otype) const 
+  { 
+    const ObjMapJet::const_iterator it = fMapJet.find(otype);
+    
+    if(it != fMapJet.end()) {
+      return it->second;
+    }
+
+    throw std::logic_error("GetVec<RecJet>(" + Type::GetObjectAsStr(otype) + ") - uknown vector");
+    return GetVec<RecJet>();
+  }
+
+ //==========================================================================================
+  // Test whether objects of the given type exist
+  //===========================================================================================
+  template<> inline bool CandEvent::HasVecType<RecElec>(Type::Object otype) const 
+  {
+    return fMapElec.find(otype) != fMapElec.end();
+  }  
+
+  //===========================================================================================
+  template<> inline bool CandEvent::HasVecType<RecMuon>(Type::Object otype) const 
+  {
+    return fMapMuon.find(otype) != fMapMuon.end();
+  } 
+
+  //===========================================================================================
+  template<> inline bool CandEvent::HasVecType<Lepton>(Type::Object otype) const 
+  {
+    return fMapLep.find(otype) != fMapLep.end();
+  } 
+
+  //===========================================================================================
+  template<> inline bool CandEvent::HasVecType<RecJet>(Type::Object otype) const 
+  {
+    return fMapJet.find(otype) != fMapJet.end();
+  } 
+  //===========================================================================================
+  template<> inline bool CandEvent::HasVecType<RecTau>(Type::Object otype) const 
+  {
+    return fMapTau.find(otype) != fMapTau.end();
+  } 
+
+
+  //===========================================================================================
+  template<> inline const std::vector<Ptr<RecTau> >& CandEvent::GetVec<RecTau>(Type::Object otype) const 
+  { 
+    const ObjMapTau::const_iterator it = fMapTau.find(otype);
+    
+    if(it != fMapTau.end()) {
+      return it->second;
+    }
+    
+    std::cout << "GetVec<RecTau>(" + Type::GetObjectAsStr(otype) + ") - uknown vector" << std::endl;
+    return GetVec<RecTau>();
+  }
+
+  //==========================================================================================
+  template<class T> inline void CandEvent::SwitchToLocal(std::vector<Ptr<T> > &vec) 
+  {
+    //
+    // Switch smart pointers to use local versions of reco objects 
+    //
+    for(Ptr<T> &p: vec) {
+      unsigned nmatch = 0;
+
+      for(Ptr<T> &r: fReco.GetVec<T>()) {
+	if(p->GetBarcode() != 0 && p->GetBarcode() == r->GetBarcode()) {
+	  p = r;
+	  ++nmatch;
+	}
+      }
+      
+      if(nmatch > 1) {
+	std::cout << "CandEvent::SwitchToLocal - logic error: nmatch=" << nmatch << std::endl;
+      }
+    }
+  }
+
+  //==========================================================================================
+  template<class T> inline void CandEvent::SwitchToLocalDerived(std::vector<Ptr<T> > &vec) 
+  {
+    //
+    // Switch smart pointers to use local copies of reco objects 
+    //
+    for(Ptr<T> &ptr: vec) {
+      Ptr<RecElec> &e = ptr->GetElec();
+      Ptr<RecMuon> &m = ptr->GetMuon();
+
+      unsigned nmatch = 0;
+
+      if(e.valid()) {	
+	for(Ptr<RecElec> &r: fReco.GetVec<RecElec>()) {
+	  if(e->GetBarcode() != 0 && e->GetBarcode() == r->GetBarcode()) {
+	    e = r;
+	    ++nmatch;
+	  }
+	}
+      }
+      
+      if(m.valid()) {
+	for(Ptr<RecMuon> &r: fReco.GetVec<RecMuon>()) {
+	  if(m->GetBarcode() != 0 && m->GetBarcode() == r->GetBarcode()) {
+	    m = r;
+	    ++nmatch;
+	  }
+	}
+      }
+      
+      if(nmatch != 1) {
+	std::cout << "CandEvent::SwitchToLocalDerived<" << T::GetObjectType() << "> - logic error: nmatch=" << nmatch << std::endl;
+      }
+    }
+  }
+
+  //===========================================================================================
+  template<class T> inline bool CandEvent::AddObjPtr(const std::string &key, const Ptr<T> &ptr)
+  {
+    Ptr<ObjectBase> optr = Anp::DynamicCastPtr<ObjectBase, T>(ptr);
+
+    if(!optr.valid()) {
+      std::cout << "CandEvent::AddObjPtr - failed to cast pointer with key=" << key << std::endl;
+      return false;
+    }
+
+    if(!fMapObj.insert(ObjMap::value_type(key, optr)).second) {
+      std::cout << "CandEvent::AddObjPtr - failed to insert pointer with key=" << key << std::endl;
+      return false;
+    }
+    
+    return true;
+  }
+
+  //===========================================================================================
+  template<class T> inline Ptr<T> CandEvent::GetObjPtr(const std::string &key) const
+  {
+    const ObjMap::const_iterator fit = fMapObj.find(key);
+
+    if(fit == fMapObj.end()) {
+      std::cout << "CandEvent::GetObjPtr - unknown key=" << key << std::endl;
+      return Ptr<T>();
+    }
+    
+    return Anp::DynamicCastPtr<T, ObjectBase>(fit->second);
+  }
+}
+
+#endif

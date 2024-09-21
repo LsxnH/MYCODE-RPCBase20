@@ -1,0 +1,1 @@
+python /hepustc/home/hengli/testarea/RPCBase20/PhysicsAnpRPC/macros/runTrigger.py /lustre/AtlUser/liheng/RPC/ntuples/ntuples_MTV_trigger/Run_364030/Run_364030_ntuple* --file-key='.*$' --rpc-geo='/moose/AtlUser/liheng/public/OfflineGeometry/rpc_geometry_athena_21.0.62_2017-03-05.root' -o ANP_HIST.root -n 150000 &>test.log& tail -f test.log

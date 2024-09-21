@@ -1,0 +1,18 @@
+{ decls }
+namespace Anp {  }
+
+[ libPhysicsAnpBaseDict.so ]
+# List of selected classes
+class Anp::AlgEvent
+class Anp::Base
+class Anp::Callback
+class Anp::HistMan
+class Anp::ReadNtuple
+class Anp::Registry
+class Anp::RunModule
+header PhysicsAnpBase/AlgEvent.h
+header PhysicsAnpBase/Handle.h
+header PhysicsAnpBase/HistMan.h
+header PhysicsAnpBase/ReadNtuple.h
+header PhysicsAnpBase/Registry.h
+header PhysicsAnpBase/RunModule.h

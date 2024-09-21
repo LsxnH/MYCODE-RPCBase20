@@ -1,0 +1,145 @@
+// -*- c++ -*-
+#ifndef ANP_RECOEVENT_ICC
+#define ANP_RECOEVENT_ICC
+
+/**********************************************************************************
+ * @Package: PhysicsCommon
+ * @Class  : RecoEvent
+ * @Author : Rustem Ospanov
+ *
+ * @Brief  : Inlined and template functions
+ * 
+ *  RecoEvent code for templates and inline functions
+ * 
+**********************************************************************************/
+
+// Local
+#include "CandEvent.h"
+
+namespace Anp 
+{
+  //===========================================================================================
+  // Partial template specialization for GetVec template
+  //
+  template<> inline std::vector<Ptr<RecElec    > >& RecoEvent::GetVec<RecElec>    () { return fElec;     }
+  template<> inline std::vector<Ptr<RecJet     > >& RecoEvent::GetVec<RecJet>     () { return fJet;      }
+  template<> inline std::vector<Ptr<RecTrackJet> >& RecoEvent::GetVec<RecTrackJet>() { return fTrackJet; }
+  template<> inline std::vector<Ptr<RecPhoton  > >& RecoEvent::GetVec<RecPhoton>  () { return fPhoton;   }
+  template<> inline std::vector<Ptr<RecMuon    > >& RecoEvent::GetVec<RecMuon>    () { return fMuon;     }
+  template<> inline std::vector<Ptr<RecTau     > >& RecoEvent::GetVec<RecTau>     () { return fTau;      }
+  template<> inline std::vector<Ptr<RecTrack   > >& RecoEvent::GetVec<RecTrack>   () { return fTrack;    }
+  template<> inline std::vector<Ptr<RecCluster > >& RecoEvent::GetVec<RecCluster> () { return fCluster;  }
+  template<> inline std::vector<Ptr<RecVertex  > >& RecoEvent::GetVec<RecVertex>  () { return fVertex;   }
+  template<> inline std::vector<Ptr<CandEvent  > >& RecoEvent::GetVec<CandEvent>  () { return fCand;     }
+  template<> inline std::vector<Ptr<RecHit     > >& RecoEvent::GetVec<RecHit>     () { return fHits;     }
+  template<> inline std::vector<Ptr<TruthPart  > >& RecoEvent::GetVec<TruthPart>  () { return fTruePart; }
+  template<> inline std::vector<Ptr<TruthVtx   > >& RecoEvent::GetVec<TruthVtx>   () { return fTrueVtx;  }
+  template<> inline std::vector<Ptr<TruthJet   > >& RecoEvent::GetVec<TruthJet>   () { return fTrueJet;  }
+
+  template<> inline const std::vector<Ptr<RecElec    > >& RecoEvent::GetVec<RecElec>    () const { return fElec;     }
+  template<> inline const std::vector<Ptr<RecJet     > >& RecoEvent::GetVec<RecJet>     () const { return fJet;      }
+  template<> inline const std::vector<Ptr<RecTrackJet> >& RecoEvent::GetVec<RecTrackJet>() const { return fTrackJet; }
+  template<> inline const std::vector<Ptr<RecPhoton  > >& RecoEvent::GetVec<RecPhoton>  () const { return fPhoton;   }
+  template<> inline const std::vector<Ptr<RecMuon    > >& RecoEvent::GetVec<RecMuon>    () const { return fMuon;     }
+  template<> inline const std::vector<Ptr<RecTrack   > >& RecoEvent::GetVec<RecTrack>   () const { return fTrack;    }
+  template<> inline const std::vector<Ptr<RecTau     > >& RecoEvent::GetVec<RecTau>     () const { return fTau;      }
+  template<> inline const std::vector<Ptr<RecCluster > >& RecoEvent::GetVec<RecCluster> () const { return fCluster;  }
+  template<> inline const std::vector<Ptr<RecVertex  > >& RecoEvent::GetVec<RecVertex>  () const { return fVertex;   }
+  template<> inline const std::vector<Ptr<CandEvent  > >& RecoEvent::GetVec<CandEvent>  () const { return fCand;     }
+  template<> inline const std::vector<Ptr<RecHit     > >& RecoEvent::GetVec<RecHit   >  () const { return fHits;     }
+  template<> inline const std::vector<Ptr<TruthPart  > >& RecoEvent::GetVec<TruthPart>  () const { return fTruePart; }
+  template<> inline const std::vector<Ptr<TruthVtx   > >& RecoEvent::GetVec<TruthVtx >  () const { return fTrueVtx;  }
+  template<> inline const std::vector<Ptr<TruthJet   > >& RecoEvent::GetVec<TruthJet >  () const { return fTrueJet;  }  
+
+  //===========================================================================================
+  inline std::vector<Ptr<AnyObj> >& RecoEvent::GetAnyVec(const std::string &key) 
+  {
+    return fMapAny[key]; 
+  }
+
+  //===========================================================================================
+  inline const std::vector<Ptr<AnyObj> >& RecoEvent::GetAnyVec(const std::string &key) const
+  {
+    const MapAnyObj::const_iterator it = fMapAny.find(key);
+    
+    if(it == fMapAny.end()) {
+      throw std::logic_error("RecoEvent::GetAnyVec("+key+") const - unknown key: add this before using const function");
+    }
+
+    return it->second;
+  }
+
+  //===========================================================================================
+  inline const std::map<std::string, std::vector<Ptr<AnyObj> > >& RecoEvent::GetAnyMap() const
+  {
+    return fMapAny;
+  }
+
+  //===========================================================================================
+  inline bool RecoEvent::HasAnyVec(const std::string &key) const
+  {
+    return fMapAny.find(key) != fMapAny.end();
+  }
+
+  //===========================================================================================
+  inline double RecoEvent::GetWeight() const 
+  { 
+    if(fInfo.valid()) {
+      return fInfo->GetWeight();
+    }
+
+    std::cout << "RecoEvent::GetWeight - invalid EventInfo pointer" << std::endl;
+    return 1.0; 
+  }
+
+  //===========================================================================================
+  inline void RecoEvent::SetWeight(double weight)
+  { 
+    if(fInfo.valid()) {
+      fInfo->SetWeight(weight);
+      return;
+    }
+
+    std::cout << "RecoEvent::SetWeight - invalid EventInfo pointer" << std::endl;
+  }
+
+  //===========================================================================================
+  // Global functions and function templates
+  //===========================================================================================
+  template<class T> inline void ClearVecData(std::vector<Ptr<T> > &vec)
+  {
+    //
+    // Clear data from objects inside vector - this should release dynamically allocated memory within each object
+    //
+    for(Ptr<T> &ptr: vec) {
+      ptr->Clear();
+    }
+
+    vec.clear();
+  }
+
+  //===========================================================================================
+  template<class T> inline void CopyVecData(const std::vector<Ptr<T> > &in, std::vector<Ptr<T> > &out)
+  {
+    //
+    // Deep copy data from input vector to output vector
+    //
+    out.reserve(in.size());
+    
+    for(const Ptr<T> &h: in) {
+      const Ptr<T> c = h.MakeCopy();
+
+      out.push_back(c);
+    
+      if(false) {
+	std::cout << "***********************************************************************************" << std::endl
+		  << "CopyVecData for " << T::GetObjectType() << std::endl
+		  << "   Variables of the source: " << std::endl << h->GetVarsAsStr("   ") << std::endl
+		  << "   Variables of the copy: "   << std::endl << c->GetVarsAsStr("   ") << std::endl
+		  << "***********************************************************************************" << std::endl;
+      }
+    }
+  }
+}
+
+#endif
